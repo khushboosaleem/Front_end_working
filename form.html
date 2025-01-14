@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google redirect</title>
+</head>
+
+<body>
+    <form action="https://www.google.com/">
+        <input type="text" name="q" placeholder="Search any query in google">
+        <button>submit</button>
+    </form>
+    <hr>
+
+    <form action="https://www.reddit.com/">
+        <input type="text" name="q" placeholder="Search any query in reddit">
+        <button>submit</button>
+    </form>
+    <hr>
+
+    <form action="https://www.youtube.com/result">
+        <input type="text" name="search_query" placeholder="Search any query in youtube">
+        <button>submit</button>
+    </form>
+
+    <hr>
+
+    <form action="/server">
+        <input type="checkbox" name="age" id="age">
+        <label for="age">I am 18+</label>
+
+        <!-- checkboxes -->
+
+        <div>
+            <input type="checkbox" name="sub" id="Sci" value="sci">
+            <label for="Sci">Science</label>
+
+            <input type="checkbox" name="sub" id="math" value="math">
+            <label for="math">Maths</label>
+
+            <input type="checkbox" name="sub" id="Urdu" value="urdu">
+            <label for="Urdu">Urdu</label>
+
+        </div>
+
+        <!-- radio button -->
+
+        <div>
+            <input type="radio" name="sub" id="Sci" value="sci">
+            <label for="Sci">Science</label>
+
+            <input type="radio" name="sub" id="math" value="math">
+            <label for="math">Maths</label>
+
+            <input type="radio" name="sub" id="Urdu" value="urdu">
+            <label for="Urdu">Urdu</label>
+
+        </div>
+
+        <!-- Drop down -->
+        <div>
+            Choose your profession:
+            <select name="Professoin" id="Profession">
+                <option selected>Select your profession</option>
+                <option value="Stu">Student</option>
+                <option value="Dev">Developer</option>
+            </select>
+        </div>
+
+        <!-- Input Range -->
+        <div>
+            Choose your Volume:
+            <input type="range" min="0" max="100" id="vol" name="val" step="10" value="50">
+        </div>
+        <label for="text">Give your valueable feedback: </label>
+        <textarea name="textarea" id="text" rows="10" cols="100" placeholder="Write your feedback here">
+
+        </textarea>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
