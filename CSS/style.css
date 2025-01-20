@@ -3,7 +3,7 @@
     background-color: aquamarine;
 } */
 
-h1{
+/* h1{
     color: orange;
 }
 
@@ -15,4 +15,78 @@ p{
 button{
     background-color: blue;
     color: white;
+} */
+
+
+/* div{
+    width: 80px;
+    height: 80px;
+    background-color: skyblue;
+    margin-left: 10px;
 }
+
+.rotated{
+    transform: rotate(45deg);
+    background-color: pink;
+    margin-left: 10px;
+}
+
+div:hover{
+    background-color:black;
+    transition: 1s;
+}
+
+.rotated:hover{
+    transform: rotate(45deg);
+    background-color: red;
+    margin-left: 10px;
+    transition: 2s;
+} */
+
+
+
+/* transform
+
+div{
+    position: absolute;
+    background-color: lightgrey;
+    left: 40px;
+    top: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+.rotate{
+    background-color: transparent;
+    outline: 2px dashed;
+    transform: rotate(45deg);
+}
+
+.rotate-translate{
+    background-color:pink ;
+    transform: rotate(45deg) translateX(190px);
+}
+
+.translate-rotate {
+    background-color: gold;
+    transform: translateX(180px) rotate(45deg);
+  } */
+
+
+
+  /* transform skew */
+
+body{
+ margin: 20px;
+}
+
+  div{
+    background-color: pink;
+    width: 80px;
+    height: 80px;
+  }
+
+  .skew{
+    background-color: blue;
+    transform: skew(-10deg);
+  }
