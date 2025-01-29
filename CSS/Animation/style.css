@@ -4,13 +4,14 @@
     background-color: pink;
     /* animation-name: myAnimation; */
     /* animation-name: colorAnimation; */
-    animation-name: widthAnimation;
+    /* animation-name: widthAnimation;
     animation-duration: 2s;
     animation-timing-function: ease-in;
     animation-direction: normal;
-    animation-delay: 0;
+    animation-delay: 0; */
     /* animation-iteration-count: 3; */
     animation-iteration-count: infinite;
+    animation: widthAnimation 3s  ease-in 0s normal  infinite ;
 
 }
 
