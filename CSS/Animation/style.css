@@ -28,7 +28,15 @@
 
 }
 
-@keyframes widthAnimation{
+/* @keyframes widthAnimation{
     from{width: 30px;}
     to{width: 400px;}
+} */
+
+
+@keyframes widthAnimation{
+    0%{width: 30px;}
+    50%{width: 100px;}
+    80%{width: 400px;}
+    100%{width: 500%;}
 }
